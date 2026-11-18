@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-17T00:00:00Z",
+  "title": "Design System: Kerala (working title)",
+  "extensions": {
+    "colorMeta": {
+      "canopy": { "role": "primary", "displayName": "Canopy Ink", "canonical": "#0f2119", "tonalRamp": ["#0c130f", "#0d1813", "#0e1d16", "#0f2119", "#4a574f", "#858d85", "#b9bcb5", "#e3e3db"] },
+      "forest": { "role": "primary", "displayName": "Forest Spot Ink", "canonical": "#1c3a2e", "tonalRamp": ["#101b16", "#14261e", "#193127", "#1c3a2e", "#546a5f", "#8c9990", "#bdc3ba", "#e5e5de"] },
+      "gold": { "role": "secondary", "displayName": "Gold Foil", "canonical": "#a8875a", "tonalRamp": ["#3a3223", "#615036", "#896f4a", "#a8875a", "#bda380", "#d2c0a6", "#e4d8c7", "#f3ede2"] },
+      "gold-300": { "role": "secondary", "displayName": "Pale Gold Foil", "canonical": "#d4ba86", "tonalRamp": ["#474130", "#7a6c4f", "#ac976d", "#d4ba86", "#decaa1", "#e8d9bc", "#f0e7d3", "#f7f2e6"] },
+      "laterite": { "role": "tertiary", "displayName": "Laterite", "canonical": "#8e3b2a", "tonalRamp": ["#321b14", "#53261c", "#743224", "#8e3b2a", "#a96a5c", "#c59a8e", "#dcc3b9", "#f0e5dd"] },
+      "ivory": { "role": "neutral", "displayName": "Uncoated Ivory", "canonical": "#efe8d8", "tonalRamp": ["#4f4f49", "#88857c", "#c1bcaf", "#efe8d8", "#f2ecde", "#f5f0e5", "#f8f4ea", "#faf6ef"] },
+      "ivory-2": { "role": "neutral", "displayName": "Ivory Shade", "canonical": "#e5dcc8", "tonalRamp": ["#4c4b44", "#837f73", "#b9b3a2", "#e5dcc8", "#ebe3d2", "#f0eadd", "#f5f0e6", "#f9f5ed"] },
+      "earth": { "role": "neutral", "displayName": "Earth", "canonical": "#6b5a45", "tonalRamp": ["#28241c", "#40372b", "#584b39", "#6b5a45", "#8f8270", "#b3a99b", "#d3ccc1", "#ede8e0"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Masthead", "purpose": "The cover masthead in pale gold, 104px on phones (30vw below 347px) up to 248px." },
+      "display-ml": { "displayName": "Masthead, Malayalam", "purpose": "The cover masthead under lang=\"ml\", 72px up to 152px, line-height 1.3, tracking 0." },
+      "display-xl": { "displayName": "Masthead, colophon", "purpose": "The colophon masthead from 768px." },
+      "display-lg": { "displayName": "Masthead, colophon on phones", "purpose": "The colophon masthead below 768px." },
+      "headline-xl": { "displayName": "Headline, wide", "purpose": "The For Hosts heading from 1024px." },
+      "display-md": { "displayName": "Masthead, not-found page", "purpose": "The masthead on the not-found page." },
+      "cover-line": { "displayName": "Cover line", "purpose": "The search sentence from 768px." },
+      "cover-line-ml": { "displayName": "Cover line, Malayalam", "purpose": "The search sentence under lang=\"ml\" from 768px." },
+      "headline": { "displayName": "Headline", "purpose": "Section headings from 768px; the active Sea to the Ghats stop on desktop." },
+      "folio": { "displayName": "Folio numeral", "purpose": "Pale gold numerals for package nights and host steps from 768px." },
+      "display-sm": { "displayName": "Masthead, results page", "purpose": "The results-page masthead; the not-found heading from 768px." },
+      "headline-md": { "displayName": "Headline, medium", "purpose": "The results sentence from 768px." },
+      "folio-sm": { "displayName": "Folio numeral, phones", "purpose": "Package-night and host-step numerals below 768px." },
+      "headline-sm": { "displayName": "Headline, phones", "purpose": "Section headings below 768px; lead stay name and guest letter from 768px." },
+      "title-2xl": { "displayName": "Title 2XL", "purpose": "Search sentence on phones; field-notes standfirst on desktop; not-found heading on phones." },
+      "title-xl": { "displayName": "Title XL", "purpose": "Lead stay name on phones; field-notes standfirst on tablets; results sentence on phones." },
+      "title-lg": { "displayName": "Title L", "purpose": "Package titles from 768px; Sea to the Ghats stop names in the phone and tablet list." },
+      "title": { "displayName": "Title", "purpose": "Field-note and host-step titles; guest letter on phones; sheet sentence on tablets; condensed-bar masthead." },
+      "title-md": { "displayName": "Title M", "purpose": "Stay names, contents entries, and cover lines on desktop." },
+      "title-sm": { "displayName": "Title S", "purpose": "Package titles and field-notes standfirst on phones; contents window caption; destination field; guest count." },
+      "title-xs": { "displayName": "Title XS", "purpose": "Compact stay and contents rows below 1024px; sheet sentence on phones; stop height on desktop." },
+      "option": { "displayName": "Option", "purpose": "Picker options, stepper labels, calendar month, menu links, price figures, letter salutation, colophon groups." },
+      "folio-strip": { "displayName": "Folio strip numeral", "purpose": "Numerals in the desktop folio strip." },
+      "standfirst": { "displayName": "Standfirst", "purpose": "The cover standfirst from 768px." },
+      "body": { "displayName": "Body", "purpose": "Reading text, primary button labels, the lead stay's reason." },
+      "standfirst-sm": { "displayName": "Standfirst, phones", "purpose": "The cover standfirst below 768px." },
+      "body-compact": { "displayName": "Body compact", "purpose": "Other stays' reasons; the child-age select." },
+      "body-small": { "displayName": "Body small", "purpose": "Navigation, prices, list rows, price breakdowns." },
+      "label": { "displayName": "Caption", "purpose": "Captions, credits, hints, group titles, the issue line, Placeholder tags. Narrow width axis, sentence case." },
+      "label-sm": { "displayName": "Caption, small", "purpose": "Calendar weekday initials." }
+    },
+    "shadows": [
+      { "name": "picker-lift", "value": "0 24px 60px -12px rgb(15 33 25 / 0.55)", "purpose": "The inline search picker panel floating over the cover photograph. The only shadow." },
+      { "name": "bar-rule", "value": "0 1px 0 rgb(239 232 216 / 0.12)", "purpose": "Hairline under the condensed top bar; a rule, not elevation." }
+    ],
+    "motion": [
+      { "name": "ease-out-quart", "value": "cubic-bezier(0.25, 1, 0.5, 1)", "purpose": "Default easing: text reveals, link underlines, photo zoom, arrow nudge, view transitions." },
+      { "name": "ease-out-expo", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Image clip reveals and their settle from scale 1.06." },
+      { "name": "reveal-text", "value": "opacity + translateY(12px), 0.8s, 60ms stagger", "purpose": "Headings, intros, list rows as they enter; once only." },
+      { "name": "reveal-image", "value": "clip-path inset(100% 0 0 0) to inset(0), 0.9s, 90ms stagger", "purpose": "Photographs uncover from the bottom; observed through the parent because a fully clipped target intersects with zero area." },
+      { "name": "link-draw", "value": "scaleX 0 to 1 from left, 0.45s", "purpose": "Hover and focus underline for navigation and summaries." },
+      { "name": "photo-zoom", "value": "scale(1.03), 0.6s", "purpose": "Photo inside its frame on hover or focus-within, hover devices only." },
+      { "name": "profile-draw", "value": "stroke-dashoffset 1 to 0, 1.8s", "purpose": "Sea to the Ghats profile line draws once." },
+      { "name": "cover-drift", "value": "translateY to 8% over the first 100vh, scroll-driven", "purpose": "Cover photo parallax, 768px and up, where scroll timelines exist." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" },
+      { "name": "container", "value": "1440px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Gold square button for the one main action of a spread (Find stays, View package, List your property).",
+      "html": "<button class=\"ds-btn-primary\">Find stays <svg viewBox=\"0 0 16 16\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><path d=\"M1 8h13M9 3l5 5-5 5\"/></svg></button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 12px; min-height: 56px; padding: 0 32px; background: var(--color-gold, #a8875a); color: var(--color-canopy, #0f2119); font-family: var(--font-sans, 'Anek Latin', system-ui, sans-serif); font-size: 1.125rem; border: 0; border-radius: 0; cursor: pointer; transition: background-color 0.15s; } .ds-btn-primary svg { transition: transform 0.35s cubic-bezier(0.25, 1, 0.5, 1); } .ds-btn-primary:hover { background: var(--color-gold-300, #d4ba86); } .ds-btn-primary:hover svg { transform: translateX(4px); } .ds-btn-primary:focus-visible { outline: 2px solid var(--color-gold-300, #d4ba86); outline-offset: 3px; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Outlined square button inside ivory pickers (Done, I'm flexible).",
+      "html": "<div class=\"ds-ivory\"><button class=\"ds-btn-secondary\">Done</button> <button class=\"ds-btn-secondary\" aria-pressed=\"true\">I'm flexible</button></div>",
+      "css": ".ds-ivory { background: var(--color-ivory, #efe8d8); color: var(--color-canopy, #0f2119); padding: 24px; display: flex; gap: 12px; } .ds-btn-secondary { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 20px; background: transparent; color: inherit; font-family: var(--font-sans, 'Anek Latin', system-ui, sans-serif); font-size: 0.9375rem; border: 1px solid rgb(15 33 25 / 0.4); border-radius: 0; cursor: pointer; transition: border-color 0.15s, background-color 0.15s; } .ds-btn-secondary:hover { border-color: #0f2119; background: rgb(15 33 25 / 0.05); } .ds-btn-secondary[aria-pressed=\"true\"] { background: #0f2119; border-color: #0f2119; color: var(--color-ivory, #efe8d8); } .ds-btn-secondary:focus-visible { outline: 2px solid var(--color-canopy, #0f2119); outline-offset: 3px; }"
+    },
+    {
+      "name": "Search Sentence",
+      "kind": "custom",
+      "refersTo": "search-phrase",
+      "description": "The cover's search: a sentence whose gold-underlined phrases open the where, when, and who pickers.",
+      "html": "<p class=\"ds-sentence\">Stay in <button class=\"ds-phrase\">anywhere in Kerala,</button> <button class=\"ds-phrase\" aria-current=\"step\">add dates,</button> for <button class=\"ds-phrase\">two adults.</button></p>",
+      "css": ".ds-sentence { background: var(--color-canopy, #0f2119); color: var(--color-ivory, #efe8d8); padding: 32px; margin: 0; max-width: 15em; font-family: var(--font-display, 'Brygada 1918', Georgia, serif); font-weight: 400; font-size: clamp(2.25rem, 4.4vw, 4rem); line-height: 1.08; letter-spacing: -0.01em; } .ds-phrase { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; text-align: left; text-decoration: underline; text-decoration-color: var(--color-gold-300, #d4ba86); text-decoration-thickness: 0.06em; text-underline-offset: 0.14em; transition: text-decoration-thickness 0.3s; } .ds-phrase:hover { text-decoration-thickness: 0.1em; } .ds-phrase[aria-current=\"step\"] { text-decoration-thickness: 0.12em; } .ds-phrase:focus-visible { outline: 2px solid var(--color-gold-300, #d4ba86); outline-offset: 3px; }"
+    },
+    {
+      "name": "Underline Field",
+      "kind": "input",
+      "refersTo": "input-underline",
+      "description": "The where filter: underline-only text field in title type on ivory.",
+      "html": "<div class=\"ds-field-wrap\"><input class=\"ds-input\" placeholder=\"Search places, themes, stays\" aria-label=\"Where\"></div>",
+      "css": ".ds-field-wrap { background: var(--color-ivory, #efe8d8); padding: 24px; } .ds-input { width: 100%; padding: 12px 0; background: transparent; color: var(--color-canopy, #0f2119); font-family: var(--font-display, 'Brygada 1918', Georgia, serif); font-size: 1.5rem; border: 0; border-bottom: 2px solid rgb(15 33 25 / 0.3); border-radius: 0; outline: none; transition: border-color 0.15s; } .ds-input::placeholder { color: var(--color-earth, #6b5a45); } .ds-input:hover { border-bottom-color: rgb(15 33 25 / 0.6); } .ds-input:focus-visible { border-bottom-color: #0f2119; }"
+    },
+    {
+      "name": "Stepper",
+      "kind": "custom",
+      "refersTo": "stepper-button",
+      "description": "Guest count row: title label, earth hint, outlined square minus and plus around a tabular count.",
+      "html": "<div class=\"ds-stepper\"><div><div class=\"ds-stepper-label\">Adults</div><div class=\"ds-stepper-hint\">13 or older</div></div><div class=\"ds-stepper-ctrl\"><button class=\"ds-step\" aria-label=\"Fewer adults\"><svg viewBox=\"0 0 16 16\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M3 8h10\"/></svg></button><output class=\"ds-count\">2</output><button class=\"ds-step\" aria-label=\"More adults\"><svg viewBox=\"0 0 16 16\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M3 8h10M8 3v10\"/></svg></button></div></div>",
+      "css": ".ds-stepper { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 64px; padding: 12px 24px; background: var(--color-ivory, #efe8d8); color: var(--color-canopy, #0f2119); border-bottom: 1px solid rgb(15 33 25 / 0.15); } .ds-stepper-label { font-family: var(--font-display, 'Brygada 1918', Georgia, serif); font-size: 1.25rem; } .ds-stepper-hint { font-size: 0.875rem; color: var(--color-earth, #6b5a45); font-variation-settings: 'wdth' 80; } .ds-stepper-ctrl { display: flex; align-items: center; gap: 4px; } .ds-step { display: grid; place-items: center; width: 44px; height: 44px; background: transparent; color: inherit; border: 1px solid rgb(15 33 25 / 0.4); border-radius: 0; cursor: pointer; transition: background-color 0.15s; } .ds-step:hover { background: rgb(15 33 25 / 0.05); } .ds-step:focus-visible { outline: 2px solid #0f2119; outline-offset: 3px; } .ds-step:disabled { opacity: 0.35; cursor: not-allowed; } .ds-count { width: 40px; text-align: center; font-family: var(--font-display, 'Brygada 1918', Georgia, serif); font-size: 1.5rem; font-variant-numeric: tabular-nums lining-nums; }"
+    },
+    {
+      "name": "Placeholder Tag",
+      "kind": "chip",
+      "refersTo": "placeholder-tag",
+      "description": "Unhideable honesty marker on every sample stay, package, letter, note, and amount.",
+      "html": "<p class=\"ds-tag-host\">Add dates to see the full total. <span class=\"ds-tag\">Placeholder</span></p>",
+      "css": ".ds-tag-host { background: var(--color-ivory, #efe8d8); color: var(--color-earth, #6b5a45); padding: 24px; margin: 0; font-size: 0.875rem; font-variation-settings: 'wdth' 80; } .ds-tag { display: inline-block; vertical-align: middle; padding: 1px 6px; font-size: 0.875rem; line-height: 1.45; font-variation-settings: 'wdth' 80; border: 1px solid color-mix(in oklab, currentColor 45%, transparent); border-radius: 0; opacity: 0.9; }"
+    },
+    {
+      "name": "Price Details",
+      "kind": "custom",
+      "description": "From-price line plus a disclosure listing base, GST, service fee, and total.",
+      "html": "<div class=\"ds-price\"><p class=\"ds-price-line\">from <span class=\"ds-amount\">₹ —</span> per night</p><details class=\"ds-details\" open><summary>Price details</summary><dl><div><dt>Base rate</dt><dd>₹ —</dd></div><div><dt>GST</dt><dd>₹ —</dd></div><div><dt>Service fee</dt><dd>₹ —</dd></div><div class=\"ds-total\"><dt>Total</dt><dd>₹ —</dd></div></dl></details></div>",
+      "css": ".ds-price { background: var(--color-ivory, #efe8d8); color: var(--color-canopy, #0f2119); padding: 24px; font-family: var(--font-sans, 'Anek Latin', system-ui, sans-serif); font-size: 0.9375rem; font-variant-numeric: tabular-nums lining-nums; } .ds-price-line { margin: 0; color: var(--color-earth, #6b5a45); } .ds-amount { font-family: var(--font-display, 'Brygada 1918', Georgia, serif); font-size: 1.25rem; color: var(--color-canopy, #0f2119); } .ds-details summary { min-height: 44px; display: inline-flex; align-items: center; cursor: pointer; list-style: none; text-decoration: underline; text-decoration-color: transparent; text-underline-offset: 0.3em; transition: text-decoration-color 0.45s; } .ds-details summary:hover { text-decoration-color: currentColor; } .ds-details summary:focus-visible { outline: 2px solid #0f2119; outline-offset: 3px; } .ds-details dl { margin: 4px 0 0; max-width: 24rem; } .ds-details dl div { display: flex; justify-content: space-between; gap: 24px; padding: 6px 0; border-bottom: 1px solid rgb(15 33 25 / 0.15); } .ds-details dd { margin: 0; } .ds-details .ds-total { border-bottom: 0; font-weight: 600; }"
+    },
+    {
+      "name": "Folio Strip",
+      "kind": "nav",
+      "refersTo": "folio-strip",
+      "description": "Forest band at the foot of the cover listing numbered sections, numerals in pale gold.",
+      "html": "<nav class=\"ds-folios\"><a href=\"#\"><span>01</span>Contents</a><a href=\"#\"><span>02</span>Sea to the Ghats</a><a href=\"#\"><span>03</span>The selection</a></nav>",
+      "css": ".ds-folios { display: flex; align-items: center; gap: 32px; height: 64px; padding: 0 48px; background: var(--color-forest, #1c3a2e); color: var(--color-ivory, #efe8d8); font-family: var(--font-sans, 'Anek Latin', system-ui, sans-serif); font-size: 0.9375rem; } .ds-folios a { position: relative; display: inline-flex; align-items: center; gap: 8px; min-height: 44px; color: inherit; text-decoration: none; } .ds-folios a::after { content: ''; position: absolute; left: 0; right: 0; bottom: 8px; height: 1px; background: currentColor; transform: scaleX(0); transform-origin: left; transition: transform 0.45s cubic-bezier(0.25, 1, 0.5, 1); } .ds-folios a:hover::after, .ds-folios a:focus-visible::after { transform: scaleX(1); } .ds-folios a:focus-visible { outline: 2px solid var(--color-gold-300, #d4ba86); outline-offset: 3px; } .ds-folios span { font-family: var(--font-display, 'Brygada 1918', Georgia, serif); font-size: 1.125rem; color: var(--color-gold-300, #d4ba86); font-variant-numeric: tabular-nums lining-nums; }"
+    },
+    {
+      "name": "Credited Figure",
+      "kind": "card",
+      "description": "Square-cornered photo frame with its caption and credit beneath, never without them.",
+      "html": "<figure class=\"ds-figure\"><div class=\"ds-frame\"></div><figcaption>Backwater at dawn · Placeholder photo · Photographer / Unsplash</figcaption></figure>",
+      "css": ".ds-figure { margin: 0; padding: 24px; background: var(--color-ivory, #efe8d8); } .ds-frame { aspect-ratio: 4 / 3; background: linear-gradient(160deg, #24473a, #0f2119); border-radius: 0; overflow: hidden; } .ds-figure figcaption { margin-top: 8px; color: var(--color-earth, #6b5a45); font-family: var(--font-sans, 'Anek Latin', system-ui, sans-serif); font-size: 0.875rem; line-height: 1.45; font-variation-settings: 'wdth' 80; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Editorial Quarterly",
+    "overview": "Every page is an issue of a print travel quarterly about Kerala. The homepage is this season's issue: a cover you book from, a contents page you browse by, and features set as spreads. The system is printed, not rendered: forest-green spot ink laid down as whole spreads, uncoated ivory stock for the reading spreads, and a muted gold foil kept for a handful of marks. Hierarchy comes from scale and face, not from weight, colour badges, or containers.\n\nDensity is low and the pace is a magazine's. Sections are full-width grounds with generous vertical padding, content sits on a 12-column grid inside a 1440px measure, and photographs are framed square, captioned, and credited like plates. Motion is settled: content reveals once as it arrives and then stays at rest.\n\nThe user pinned the palette (forest greens, warm ivory, earthy neutrals, muted gold) and the pairing of serif headings with sans body. The world refuses the full-bleed photo with a floating white search pill and rows of rounded cards.",
+    "keyCharacteristics": [
+      "Whole-section grounds alternate between green spreads and ivory reading spreads.",
+      "Gold is foil: four roles only.",
+      "Brygada 1918 at regular weight carries every heading; Anek Latin carries reading and interface text, with a narrow Anek for captions.",
+      "Square corners everywhere; depth from grounds and hairline rules, not shadows.",
+      "Every photograph has a caption and credit; every sample has a visible \"Placeholder\" tag; every price has a breakdown.",
+      "English and Malayalam are first-class; Malayalam gets its own line-heights and sizes."
+    ],
+    "rules": [
+      { "name": "The Four Foils Rule", "body": "Gold appears in four roles only: the masthead (on the cover and in its condensed top-bar, menu, and colophon forms); folio and section numerals, including package nights and host step numbers; the field underlines of the search phrases plus the Sea to the Ghats profile line and markers; and the primary button. Labels and links use ivory or earth.", "section": "colors" },
+      { "name": "The Whole Spread Rule", "body": "A section takes one ground edge to edge: canopy or forest on green spreads, ivory on reading spreads. Content never sits in a card of one ground floating on another; dividers are hairline rules in the text colour at 10–25% opacity.", "section": "colors" },
+      { "name": "The Focus Follows Ground Rule", "body": "Every element sets its outline colour from `--focus` (pale gold by default), so colour transitions never start from currentColor. Ivory grounds switch `--focus` to canopy. The visible ring is a 2px solid outline offset 3px.", "section": "colors" },
+      { "name": "The Scale-Only Hierarchy Rule", "body": "Hierarchy comes from size and face, never weight: every heading is Brygada at 400 with -0.01em tracking (the masthead -0.03em). The one heavier weight is the semibold total row of a price breakdown. No uppercase and no positive letter-spacing.", "section": "typography" },
+      { "name": "The Malayalam Room Rule", "body": "Under `lang=\"ml\"`, every Brygada line opens to a line-height of 1.3, the masthead and cover line included, tracking returns to 0, and the masthead and cover line step down to `display-ml` and `cover-line-ml`. In headings, paragraphs, and list items a long Malayalam word may break inside itself when nothing else fits a 320px column (`overflow-wrap: anywhere`); buttons and links keep their words whole. Malayalam text falls back to Noto Serif Malayalam and Anek Malayalam inside the same stacks; neither face is preloaded.", "section": "typography" },
+      { "name": "The One Grid Break Rule", "body": "Sea to the Ghats is the only element that leaves the 12-column grid: its cross-section bleeds to both viewport edges. Nothing else bleeds, apart from the cover photograph that fills the first viewport.", "section": "layout" },
+      { "name": "The Ink-and-Stock Rule", "body": "Surfaces are printed, not lifted: no shadows on cards, photographs, buttons, or sections. A panel that floats over a photograph is the one exception.", "section": "elevation" },
+      { "name": "The Square Corner Rule", "body": "No radius anywhere, including third-party widgets; the calendar's day buttons are overridden to 0.", "section": "shapes" },
+      { "name": "The Credited Photograph Rule", "body": "A photograph is never shown without a caption and credit beneath it, in label type (earth on ivory, ivory at 70–75% on green): what it shows, a placeholder note while stock is used, and the photographer.", "section": "components" },
+      { "name": "The Visible Placeholder Rule", "body": "Every sample stay, package, letter, field note, and amount carries an inline \"Placeholder\" tag: label type at 13px, a 1px current-colour border at 45% opacity, 1px by 6px padding. Styling never hides it.", "section": "components" },
+      { "name": "The Full Price Rule", "body": "Every price shows \"from ₹ — per night\" (Brygada for the amount, tabular figures) with a \"Price details\" disclosure listing base rate, GST, service fee, and a semibold total, ruled with hairlines. The note follows the dates in the search; packages compute for their own night count and take only a start date from the search. Without dates it asks for them.", "section": "components" }
+    ],
+    "dos": [
+      "**Do** give each section one whole ground: canopy or forest for green spreads, ivory for reading spreads.",
+      "**Do** keep gold to its four roles: masthead, numerals, search and profile lines, and the primary button.",
+      "**Do** set every heading in Brygada 1918 at 400 and build hierarchy from size alone.",
+      "**Do** keep every corner square (0px), including calendars and inputs.",
+      "**Do** put a caption and credit under every photograph and a visible Placeholder tag on every sample.",
+      "**Do** show a full price breakdown (base, GST, service fee, total) with every price.",
+      "**Do** set `--focus` to canopy on any new ivory ground, using the existing on-ivory treatment.",
+      "**Do** recompose phone layouts rather than shrinking desktop ones, with 44px minimum targets."
+    ],
+    "donts": [
+      "**Don't** use gold for labels, links, tabs, or active states; use ivory or earth.",
+      "**Don't** put content in rounded cards, floating white pills, or shadowed tiles.",
+      "**Don't** add shadows beyond the picker panel that floats over the cover photograph.",
+      "**Don't** use uppercase, tracked caps, or bold headings.",
+      "**Don't** break the 12-column grid anywhere except Sea to the Ghats.",
+      "**Don't** use laterite decoratively; it marks today's date and validation only.",
+      "**Don't** show a fee or tax for the first time at checkout, or a star rating or verified badge anywhere."
+    ]
+  }
+}

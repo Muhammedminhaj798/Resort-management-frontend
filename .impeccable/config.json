@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/model-pick.html"
+        ],
+        "createdAt": "2026-11-17T08:55:24.279Z",
+        "reason": "user brief pinned warm ivory; ivory is the literal kasavu cotton material of this decision sketch, not a shipping surface"
+      }
+    ]
+  }
+}
